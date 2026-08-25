@@ -1,2 +1,8 @@
 # it will not work curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo sh -s -- -b /usr/local/bin v0.67.2
 sudo yum install -y wget && wget https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh && sudo sh install.sh -b /usr/local/bin
+
+
+sudo yum install -y wget && wget https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh && sudo sh install.sh -b /usr/local/bin
+aquasecurity/trivy info checking GitHub for tag 'v0.67.2'
+aquasecurity/trivy info found version: 0.67.2 for v0.67.2/Linux/64bit
+aquasecurity/trivy info installed /usr/local/bin/trivy
